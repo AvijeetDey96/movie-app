@@ -8,7 +8,7 @@ function ControlledCarousel({topThree}) {
     const handleSelect = (selectedIndex, e) => {
       setIndex(selectedIndex);
     };
-  console.log('topThree',topThree);
+  console.log('topThree',topThree); 
     return (
       <Carousel activeIndex={index} onSelect={handleSelect}>
           {
